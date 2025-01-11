@@ -1,6 +1,6 @@
 package curso.java.erik;
 
-public class java {
+public class pessoa {
 
 	
 	private String nome;
