@@ -7,6 +7,10 @@ public class java {
 	
 	private String sobrenome;
 
+	private int idade;
+	
+	
+
 	public String getNome() {
 		return nome;
 	}
@@ -23,5 +27,11 @@ public class java {
 		this.sobrenome = sobrenome;
 	}
 	
-	
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
 }
