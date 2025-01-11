@@ -13,6 +13,7 @@ public class pessoa {
 	
 	private Date dataNascimento;
 	
+	private Date dataCadastro;
 
 
 	public String getNome() {
