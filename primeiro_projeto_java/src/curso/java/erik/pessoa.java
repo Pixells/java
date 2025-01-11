@@ -1,5 +1,7 @@
 package curso.java.erik;
 
+import java.sql.Date;
+
 public class pessoa {
 
 	
@@ -9,7 +11,9 @@ public class pessoa {
 
 	private int idade;
 	
+	private Date dataNascimento;
 	
+
 
 	public String getNome() {
 		return nome;
@@ -33,5 +37,13 @@ public class pessoa {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+	
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 }
