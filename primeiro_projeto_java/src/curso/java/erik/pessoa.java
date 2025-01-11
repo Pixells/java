@@ -13,7 +13,6 @@ public class pessoa {
 	
 	private Date dataNascimento;
 	
-	private Date dataNascimento2;
 
 
 	public String getNome() {
