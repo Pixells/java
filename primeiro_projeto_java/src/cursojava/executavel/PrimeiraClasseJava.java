@@ -5,13 +5,13 @@ public class PrimeiraClasseJava {
 	/*Main é um metodo auto executavel em Java*/
 	public static void main(String[] args) {
 		
-		/*CHAR representa uma letra*/
-		char pessoaMasculino = 'M';
+		/*String no Java sempre será utilizado para texto de qualquer tamanho*/
+		String nome = "Paulo João de Souza";
+		String sobrenome;
+		String cpf;
+		String telefone;
+		String endereco;
 		
-		if (pessoaMasculino == 'M') {
-			System.out.println("Masculino");
-		}else {
-			System.out.println("Feminino");
-		}
+		System.out.println(nome);
 	}
 }
