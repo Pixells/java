@@ -5,13 +5,16 @@ public class PrimeiraClasseJava {
 	/*Main é um metodo auto executavel em Java*/
 	public static void main(String[] args) {
 		
-		/*String no Java sempre será utilizado para texto de qualquer tamanho*/
-		String nome = "Paulo João de Souza";
-		String sobrenome;
-		String cpf;
-		String telefone;
-		String endereco;
+		/*Concatenação = Unir ou juntar dados*/
+		String nome = "João Paulo";
+		String sobrenome = "Carvalho";
+		String cpf = "142.242.214-02";
+		String telefone = "071 829424234";
+		String endereco = "Vila Melo - ES";
+		int idade = 25;
 		
-		System.out.println(nome);
+		String saida = "Meu nome é " + nome + " " + sobrenome + " meu cpf é " + cpf + " meu telefone é " + telefone + "e eu moro em " + endereco + " e minha idade é " + idade + " anos.";
+		
+		System.out.println(saida); 
 	}
 }
