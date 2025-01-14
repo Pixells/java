@@ -4,50 +4,47 @@ public class PrimeiraClasseJava {
 
 	/* Main é um metodo auto executavel em Java */
 	public static void main(String[] args) {
-
+			
 		int nota1 = 90;
-		int nota2 = 20;
-		int nota3 = 90;
-		int nota4 = 90;
-		int media = 0;
-
-		media = (nota1 + nota2 + nota3 + nota4) / 4;
-
-		/*SWITCH CASE: Operações exatas*/
-		int dia = 7;
-		switch (dia) {
-		case 1:
-			System.out.println("domingo ");
-			break;
-			
-		case 2:
-			System.out.println("Segunda-feira ");
-			break;
-			
-		case 3:
-			System.out.println("Terça-feira ");
-			break;
-			
-		case 4:
-			System.out.println("Quarta-feira ");
-			break;
-			
-		case 5:
-			System.out.println("Quinta-feira ");
-			break;
-			
-		case 6:
-			System.out.println("Sexta-feira ");
-			break;
-			
-		case 7:
-			System.out.println("Sabado ");
-			break;
-			
-		default: System.out.println("Outro dia qualquer ");
-			break;
+		int nota2 = 69;
+		
+		/*Operadores relacionais*/
+		if (nota1 == nota2) {
+			System.out.println("As notas são iquais");
+		}else {
+			System.out.println("As notas não são iquais");
 		}
 		
-
+		if (nota1 != nota2) {
+			System.out.println("As notas são diferentes");
+		}else {
+			System.out.println("Notas são iquais");
+		}
+		
+		if (nota1 > nota2) {
+			System.out.println("A nota1 é maior que nota2");
+		}else {
+			System.out.println("As nota1 é menor que a nota2");
+		}
+		
+		if (nota1 < nota2) {
+			System.out.println("nota1 é menor que nota2");
+		}else {
+			System.out.println("nota1 é maior que a nota2");
+		}
+		
+		if (nota1 >= nota2) {
+			System.out.println("A nota1 é maior ou iqual a nota2");
+		}else {
+			System.out.println("As nota1 é menor ou iqual a nota2");
+		}
+		
+		if (nota1 <= nota2) {
+			System.out.println("nota1 é menor ou iqual a nota2");
+		}else {
+			System.out.println("nota1 é maior ou iqual a nota2");
+		}
+		
+		
 	}
 }
