@@ -4,47 +4,23 @@ public class PrimeiraClasseJava {
 
 	/* Main é um metodo auto executavel em Java */
 	public static void main(String[] args) {
-			
-		int nota1 = 90;
-		int nota2 = 69;
-		
-		/*Operadores relacionais*/
-		if (nota1 == nota2) {
-			System.out.println("As notas são iquais");
-		}else {
-			System.out.println("As notas não são iquais");
+
+		/* Estrutura de repetição WHILE e DO WHILE */
+		int numero = 0;
+
+		while (numero <= 10) { /* Verifica e depois executa o código */
+			System.out.println("O numéro atual é: " + numero);
+			numero++;
 		}
-		
-		if (nota1 != nota2) {
-			System.out.println("As notas são diferentes");
-		}else {
-			System.out.println("Notas são iquais");
-		}
-		
-		if (nota1 > nota2) {
-			System.out.println("A nota1 é maior que nota2");
-		}else {
-			System.out.println("As nota1 é menor que a nota2");
-		}
-		
-		if (nota1 < nota2) {
-			System.out.println("nota1 é menor que nota2");
-		}else {
-			System.out.println("nota1 é maior que a nota2");
-		}
-		
-		if (nota1 >= nota2) {
-			System.out.println("A nota1 é maior ou iqual a nota2");
-		}else {
-			System.out.println("As nota1 é menor ou iqual a nota2");
-		}
-		
-		if (nota1 <= nota2) {
-			System.out.println("nota1 é menor ou iqual a nota2");
-		}else {
-			System.out.println("nota1 é maior ou iqual a nota2");
-		}
-		
-		
+
+		/*------------------------------------------------------------*/
+		int numero2 = 0;
+
+		do { /* Primeiro executa e depois ele verifica */
+
+			System.out.println("O numéro atual é: " + numero2);
+			numero2++;
+
+		} while (numero2 <= 60);
 	}
 }
