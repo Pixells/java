@@ -1,20 +1,25 @@
 package cursojava.executavel;
 
 public class PrimeiraClasseJava {
-	
-	/*Main é um metodo auto executavel em Java*/
+
+	/* Main é um metodo auto executavel em Java */
 	public static void main(String[] args) {
-		
-		/*Concatenação = Unir ou juntar dados*/
-		String nome = "João Paulo";
-		String sobrenome = "Carvalho";
-		String cpf = "142.242.214-02";
-		String telefone = "071 829424234";
-		String endereco = "Vila Melo - ES";
-		int idade = 25;
-		
-		String saida = "Meu nome é " + nome + " " + sobrenome + " meu cpf é " + cpf + " meu telefone é " + telefone + "e eu moro em " + endereco + " e minha idade é " + idade + " anos.";
-		
-		System.out.println(saida); 
+
+		int nota1 = 50;
+		int nota2 = 60;
+		int nota3 = 50;
+		int nota4 = 10;
+		int media = 0;
+
+		media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+		if (media >= 70) {
+			System.out.println("Aluno aprovado: " + media);
+		} else if (media >= 40 && media <= 69) {
+			System.out.println("Aluno em recuperação: " + media);
+		} else {
+			System.out.println("Aluno reprovado: " + media);
+		}
+
 	}
 }
