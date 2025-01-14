@@ -7,7 +7,7 @@ public class PrimeiraClasseJava {
 	/* Main é um metodo auto executavel em Java */
 	public static void main(String[] args) {
 
-		/* Criando nossa entrada de dados */
+		/* Criando uma opção de confirmação */
 		
 		String carros = JOptionPane.showInputDialog("Informe a quantidade de carros: ");
 		String pessoas = JOptionPane.showInputDialog("Informe a quantidade de pessoas: ");
@@ -19,7 +19,17 @@ public class PrimeiraClasseJava {
 		
 		double resto = carroNumero % pessoaNumero;
 		
-		JOptionPane.showMessageDialog(null, "Divisão para pessoas deu " + divisao + " carros para cada e sobrou " + resto + " carros.");
+		int resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o resultado da divisão?");
+		
+		if (resposta == 0) {
+			JOptionPane.showMessageDialog(null, "Divisão para pessoas deu " + divisao);
+		}
+		
+		resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o RESTO da divisão?");
+		
+		if (resposta == 0) {
+			JOptionPane.showMessageDialog(null, "O resto da divisão é: " + resto);
+		}
 		
 	}
 }
