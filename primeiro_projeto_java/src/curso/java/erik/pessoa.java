@@ -12,8 +12,6 @@ public class pessoa {
 	private int idade;
 	
 	private Date dataNascimento;
-	
- 	private Date dataCadastro;
 
 
 	public String getNome() {
